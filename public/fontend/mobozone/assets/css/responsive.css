@@ -1,0 +1,95 @@
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) { 
+
+	 }
+
+
+/* Xtar Large Device: 1200px. */
+@media (min-width: 1200px) and (max-width: 1500px){
+    
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.grid_container {
+		grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+	}
+
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.mobozone_hero_slider .mobozone_single_slider_content {
+			padding: 40px 50px;
+	}
+	.mobozone_slider_text h2 {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.mobozone_slider_text p, .mobozone_slider_text span {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	.mobozone_hero_slider .slider .owl-nav button.owl-next {
+		right: -9%;
+	}
+	.single_cat_section {
+		padding: 15px;
+	}
+	.single_cat_section a.cat_link img {
+		max-width: 70px;
+		max-height: 70px;
+	}
+	.single_cat_section a.cat_link span {
+		font-size: 15px;
+	}
+	.grid_container {
+		grid-template-columns: 2fr 2fr 2fr;
+	}
+	.footer_download_app .app_links a img {
+		display: block;
+		margin-top: 15px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+		.mobozone_featured_category.section_gap{
+			padding-bottom: 26px;
+		}
+		.mobozone_slider_text p, .mobozone_slider_text span {
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+		.mobozone_slider_text h2 {
+			font-size: 35px;
+			margin-bottom: 15px;
+		}
+		.mobozone_slider_text p, .mobozone_slider_text span {
+			color: #fff;
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+		.grid_container {
+		grid-template-columns: 2fr 2fr ;
+		}
+ 
+}
+/* extra small device*/
+@media only screen and (min-width: 320px) and (max-width: 487px){
+	.row.grid_container {
+		grid-template-columns: 2fr;
+		margin: 15px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.row.grid_container {
+		grid-template-columns: 2fr;
+		margin: 15px;
+	}
+}
